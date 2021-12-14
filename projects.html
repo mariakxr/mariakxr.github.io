@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NLK WebGL Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .dropdown-menu { background-color: #aaaaaa}
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #444444}
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+    .dropdown-menu>li>a { color: #333333}
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    body{
+      background-color: #66a3ff;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 10px;
+      background-color: #66a3ff;
+      height: 100%;
+      min-height: 100%;
+    }
+    
+    .panel{
+      background-color: #cce0ff;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #003380;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="projects.html">WebGL</a></li>
+          <li><a href="projects_tex.html">TeX</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid">    
+  <div class="row row-eq-height">
+
+    <div class="col-xs-2 sidenav">
+      <div class="well" style="background-color:#b3b3ff">
+        <img src="images/math04.gif" class="img-rounded" alt="Cinque Terre" width=100% height=100%>     
+      </div>
+      <div class="well" style="background-color:#d9b3ff">
+        <img src="images/math06.gif" class="img-rounded" alt="Cinque Terre" width=100% height=100%>     
+      </div>
+      <div class="well" style="background-color:#8080ff">
+        <img src="images/mathM05.jpg" class="img-rounded" alt="Cinque Terre" width=100% height=100%>    
+      </div>
+    </div>
+
+    <div class="col-xs-8 panel"> 
+      <h3>Threejs</h3>
+      <p>
+        <ul>
+          <li>Rendering <a href="teapot.html">A teapot</a> using threejs</li>
+          <li>Environment mapping <a href="reflection.html"> Reflection</a></li>
+          <li>Next task <a href="../testvideo/testvideo.html"> testvideo.</a></li>
+        </ul>
+      </p>
+      
+      <hr>
+      <h3>Qt, C++ Projects</h3>
+      <p>
+        <ul>
+          <li>OpenGL Starfield<a href="https://github.com/nickchalkida/OpenGL_Starfield/">(Github link).</a></li>
+          <li>Qt OpenGL Textures<a href="https://github.com/nickchalkida/QT_OpenGL_Textures">(Github link).</a></li>
+          <li>Qt OpenGL Cube<a href="https://github.com/nickchalkida/QT_OpenGL_Cube">(Github link).</a></li>
+          <li>Qt NSocket<a href="https://github.com/nickchalkida/QT_NSocket">(Github link).</a></li>
+        </ul>
+      </p>
+      
+      <hr>
+      <h3>Other Projects</h3>
+        <ul>
+          <li>A tool for interactive Geometry<a href="Geometria/Geometria.html">  Geometria.</a></li>
+        </ul>
+      <p>Page under construction</p>
+      
+    </div>
+    
+    <div class="col-xs-2 sidenav">
+      <div class="well" style="background-color:#0052cc">
+        <img src="images/math05.gif" class="img-rounded" alt="Cinque Terre" width=100% height=100%>     
+      </div>
+      <div class="well" style="background-color:#888855">
+        <img src="images/mathM07.jpg" class="img-rounded" alt="Cinque Terre" width=100% height=100%>    
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Designed by Nikolaos L. Kechris</p>
+</footer>
+
+</body>
+</html>
+
